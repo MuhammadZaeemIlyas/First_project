@@ -2,13 +2,13 @@ import 'dart:io';
 import 'dart:math';
 
 void main() {
-  //Q1
-  // int length=11, breadth=12;
-  // if(length==breadth){
-  //   print('Square');
-  // }else {
-  //   print('Rectangle');
-  // }
+ // Q1
+  int length=11, breadth=12;
+  if(length==breadth){
+    print('Square');
+  }else {
+    print('Rectangle');
+  }
   //Q2
   // print('Enter Age 1');
   // int age1=int.parse(stdin.readLineSync()?? '');
@@ -30,9 +30,15 @@ void main() {
   //   print('Student is not allowed');
   // }
   //Q4
-
-
-
+  // int year = 2028;
+  //
+  // bool leapYear = (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+  //
+  // if (leapYear) {
+  //   print('$year is a leap year.');
+  // } else {
+  //   print('$year is not a leap year.');
+  // }
   //Q5
   // int temperature=42;
   // if(temperature<0){
@@ -179,6 +185,12 @@ void main() {
 //        num farenheit=(celsius * 9/5)+32;
 //
 //        print("Celsius $celsius to Farenheit is $farenheit");
+//Q12
+       num celsius=53;
+
+       num farenheit=(celsius * 9/5)+32;
+
+       print("Celsius $celsius to Farenheit is $farenheit");
 
 
 }
